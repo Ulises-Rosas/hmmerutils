@@ -181,7 +181,7 @@ class Hmmer:
                     sys.stderr.flush()
                     continue
 
-                [*p.map(self.export_exons, exons)]
+                [*map(self.export_exons, exons)]
 
 def getOpts():
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter,
