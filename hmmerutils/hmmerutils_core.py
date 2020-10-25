@@ -53,7 +53,7 @@ class Hmmer:
 
     def gethits(self, table: str = None) -> dict:
         # table = tables[0]
-        tarfilpatt = "# Target file:[ ]+?(.+)\n$"
+        tarfilpatt = "# Target file:[ ]+?([A-Za-z_].+)\n$"
         ref_file   = ''
         matches    = {}
 
