@@ -19,6 +19,8 @@ python setup.py install
 hmmerparser -t *.hmm-hits.txt -f *.fna -s LABEL
 ```
 
+Help page
+
 ```
 hmmerparser -h
 ```
