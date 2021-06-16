@@ -14,6 +14,11 @@ python setup.py install
 
 ### Usage
 
+
+```
+hmmerparser -t *.hmm-hits.txt -f *.fna -s LABEL
+```
+
 ```
 hmmerparser -h
 ```
